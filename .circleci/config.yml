@@ -5,4 +5,4 @@ jobs:
       - image: circleci/python:2.7-jessie-node-browsers
     steps:
       - checkout
-      - run: "{ echo 'Steven'; echo '24'; echo 'Canada' } | python test.py"
+      - run: "{ echo 'Steven'; echo '24'; echo 'Canada'; } | python test.py"
